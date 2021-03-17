@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed"
-            android:text="SERIES"
+            android:text="MOVIES"
             android:textColor="@color/green"
             android:layout_marginLeft="6dp"
             android:textSize="20dp"
@@ -59,7 +59,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed"
-            android:text="MOVIES"
+            android:text="SERIES"
             android:textColor="@color/green"
             android:textSize="20dp"
             android:textStyle="bold" />

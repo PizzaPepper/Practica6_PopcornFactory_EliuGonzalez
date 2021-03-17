@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    tools:context=".FormMovie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="Name:"
+            android:textColor="@color/green"
+            android:textSize="@dimen/titleSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/white"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Payment type:"
+            android:textColor="@color/green"
+            android:textSize="@dimen/titleSize"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/payment"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Seat:"
+            android:textColor="@color/green"
+            android:textSize="@dimen/titleSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numberseat"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/white"
+            android:inputType="number"
+            android:text="-1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titleSize" />
+
+        <Button
+            android:id="@+id/confirm_seat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corners"
+            android:paddingHorizontal="70dp"
+            android:text="Confirm"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+</LinearLayout>
